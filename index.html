@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="subject" content="Веб-технологии">
+    <meta name="authorname" content="Завьялов Даниил Владимирович">
+    <meta name="authorgroup" content="353015">
+    <meta name="authormajor" content="Applied computer science">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Blinken, KDE, GNU, Linux, Free Software">
+    <link rel="icon" type="image/png" href="static/icons/logo.png"> 
+    <link rel="stylesheet" href="static/style.css">
+    <title>BlinkenJS</title>
+</head>
+<body >
+    <div class="wrapper">
+        <div id="title-header" class="title-header">
+            <h2>BlinkenJS</h2>
+        </div>
+        <div id="game-board" class="game-board">
+            <img id="blinken-img" class="blinken-img" src="static/images/blinken.svg" alt="">
+            <img id="scope-display-1" class="scope-display" src="static/images/display.svg" alt="">
+            <img id="scope-display-2" class="scope-display" src="static/images/display.svg" alt="">
+            <img id="scope-num-1" class="scope-num" src="" alt="">
+            <img id="scope-num-2" class="scope-num" src="" alt="">
+            <img src="static/images/yellow_highlight.svg" alt="" id="yellow-highlight" class="block yellow yellow-highlight">
+            <img src="static/images/red_highlight.svg" alt="" id="red-highlight" class="block red red-highlight">
+            <img src="static/images/blue_highlight.svg" alt="" id="blue-highlight" class="block blue blue-highlight">
+            <img src="static/images/green_highlight.svg" alt="" id="green-highlight" class="block green green-highlight">
+            <button id="button-board-1" class="button-board"></button><br>
+            <button id="button-board-2" class="button-board">Начать игру</button>
+            <button id="button-board-3" class="button-board"></button>
+            <button id="button-board-4" class="button-board"></button>
+            </div>
+        </div>
+        <div class="game-footer" id="game-footer"></div>
+    </div>
+    <script src="static/jquery.js" type="text/javascript"></script>
+    <script src="static/script.js" type="text/javascript"></script>
+</body>
+</html>

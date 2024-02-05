@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'steve';
+    src: url('fonts/steve.ttf');
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+body {
+    min-height: 100%;
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.title-header {
+    display: flex;
+    background-color: rgb(189, 0, 28);
+    font-size: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 6vh;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin: 50px auto;
+    padding: 0;
+    background-color: rgb(107, 23, 18);
+    border-radius: 10px;
+    text-align: center;
+    height: 665px;
+    width: 816px;    
+    font-size: 24px;
+}
+
+.scope-display#scope-display-1 {
+    position: absolute;
+    top: 180px;
+    left: 363px;
+}
+.scope-display#scope-display-2 {
+    position: absolute;
+    top: 180px;
+    left: 407px;
+}
+#scope-num-1 {
+    position: absolute;
+    top: 180px;
+    left: 363px;
+
+}
+#scope-num-2{
+    position: absolute;
+    top: 180px;
+    left: 407px;
+}
+
+.game-board {
+    display: block;
+    background-repeat: no-repeat;
+    width: 816px;
+    height: 665px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    font-family: steve;
+    color: blue;
+}
+.blinken-img {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 816px;
+}
+#button-board-1,
+#button-board-2,
+#button-board-3,
+#button-board-4 {
+    position: absolute;
+    border: 0px;
+    background: none;
+    font-family: steve;
+    font-size: 24px;
+    color: blue;
+    transform: rotate(-3deg);
+    font-size: 24px;
+    
+}
+#button-board-1{
+    top: 530px;
+    left: 65px;
+    text-decoration: underline;
+}
+#button-board-2 {
+    top: 570px;
+    left: 65px;
+}
+#button-board-3 {
+    top: 570px;
+    left: 100px;
+}
+#button-board-4 {
+    top: 570px;
+    left: 170px;
+}
+#button-board-2:hover,
+#button-board-3:hover,
+#button-board-4:hover {
+    font-size: 26px;
+    text-decoration: underline;
+}
+.yellow-highlight {
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.red-highlight {
+    position: absolute;
+    top: 24px;
+    left: 411px;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.blue-highlight {
+    position: absolute;
+    top: 288px;
+    left: 22px;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.green-highlight {
+    position: absolute;
+    top: 288px;
+    left: 411px;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+
+.is-active {
+    opacity: 1;
+}
+
